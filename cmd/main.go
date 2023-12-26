@@ -17,7 +17,17 @@ func handleErr(err error) {
 func main() {
 	servers := []server.ServerInterface{
 		server.NewServer("https://google.com/"),
-		server.NewServer("https://www.bing.com/"),
+		server.NewServer("https://bing.com/"),
+		server.NewServer("https://example.com/"),
+		server.NewServer("https://wikipedia.org/"),
+		server.NewServer("https://reddit.com/"),
+		server.NewServer("https://stackoverflow.com/"),
+		server.NewServer("https://netflix.com/"),
+		server.NewServer("https://amazon.com/"),
+		server.NewServer("https://apple.com/"),
+		server.NewServer("https://spotify.com/"),
+		server.NewServer("https://microsoft.com/"),
+		server.NewServer("https://instagram.com/"),
 		server.NewServer("https://github.com/"),
 	}
 
