@@ -36,17 +36,11 @@
 
 This project implements a simple Load Balancer using Golang, reverse proxy, and Docker. The load balancer distributes incoming network traffic across multiple backend servers to ensure optimal resource utilization and maintain high availability.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 * [![Golang][Golang.shield]][Golang.url]
 * [![Docker][Docker.shield]][Docker.url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -76,9 +70,6 @@ _Below are the steps of installation._
    docker-compose up -d
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -86,7 +77,6 @@ _Below are the steps of installation._
 * Access the load balancer at http://localhost:8080.
 * Add or modify backend servers in the files as needed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -102,8 +92,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
